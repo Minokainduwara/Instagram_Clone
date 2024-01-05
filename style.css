@@ -58,3 +58,9 @@ a{
     
     margin-bottom: 3rem;
 }
+
+@media screen and (max-width: 900px) {
+    .sidebar{
+        width: 10%;
+    }
+}
