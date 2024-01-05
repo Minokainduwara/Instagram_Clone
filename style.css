@@ -48,6 +48,9 @@ a{
     padding: 0.7rem 0rem;
 }
 
+.logo2{
+    display: none;
+}
 .top-section{
     display: flex;
     flex-direction: column;
@@ -60,7 +63,19 @@ a{
 }
 
 @media screen and (max-width: 900px) {
+
+    .logo2{
+        display: block;
+    }
+
+    .logo{
+        display: none;
+    }
     .sidebar{
-        width: 10%;
+        width: 25px;
+    }
+
+    .link a {
+        display: none;
     }
 }
