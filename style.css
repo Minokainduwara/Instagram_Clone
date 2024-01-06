@@ -35,6 +35,17 @@ html,body {
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+
+.link img{
+    height: 1rem; 
+    margin-right: 0.5rem;
+}
+
+.link i{
+    height: 1rem; 
+    margin-right: 0.7rem
+}
+
 a{
     color: var(--white);
     text-decoration: none;
@@ -62,10 +73,14 @@ a{
     margin-bottom: 3rem;
 }
 
+
+
 @media screen and (max-width: 900px) {
 
     .logo2{
         display: block;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
 
     .logo{
@@ -78,4 +93,19 @@ a{
     .link a {
         display: none;
     }
+
+    .top-section{
+        align-items: center;
+    }
+
+    .link img{
+        height: 1rem; 
+        margin-right: 0rem;
+    }
+    
+    .link i{
+        height: 1rem; 
+        margin-right: 0rem
+    }
+    
 }
