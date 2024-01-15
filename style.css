@@ -30,6 +30,10 @@ html,body {
     padding: 1rem;
 }
 
+.sidebar-bottom{
+    display: none;
+}
+
 .logo{
     width: 90px;
     margin-bottom: 1rem;
@@ -114,6 +118,22 @@ a{
 
     .sidebar{
         display: none;
+    }
+
+    .sidebar-bottom{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        bottom: 0;
+        left: 0;
+        height: 1.5rpm;
+        width: 100%;
+        border-top: var(--grey);
+        background-color: var(--black);
+        color: var(--white);
+        border-top: 1px solid var(--grey);
+        padding: 1rem;
+
     }
 
 }
